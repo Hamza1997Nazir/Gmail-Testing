@@ -1,0 +1,44 @@
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.csprojAssemblyReference.cache
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.AssemblyInfoInputs.cache
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.AssemblyInfo.cs
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\config.json
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.deps.json
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.runtimeconfig.json
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.runtimeconfig.dev.json
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.dll
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.pdb
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.dll
+D:\Downloads\qa-automation-cs\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.pdb
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\config.json
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.deps.json
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.runtimeconfig.json
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.runtimeconfig.dev.json
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.dll
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.pdb
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.csprojAssemblyReference.cache
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.AssemblyInfoInputs.cache
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.AssemblyInfo.cs
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.dll
+D:\HS\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.pdb
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\config.json
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.deps.json
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.runtimeconfig.json
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.runtimeconfig.dev.json
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.dll
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\CrossMail.Tests.pdb
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.csprojAssemblyReference.cache
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.AssemblyInfoInputs.cache
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.AssemblyInfo.cs
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.csproj.CoreCompileInputs.cache
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.dll
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.pdb
+D:\Automation\Sending Mail\GmailTesting\qa-automation-selenium-cs\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.genruntimeconfig.cache
