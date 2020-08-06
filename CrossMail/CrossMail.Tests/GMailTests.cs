@@ -68,9 +68,6 @@ namespace CrossMail.Test
             _browserDriver.FindElement(By.XPath("//input[@name ='subjectbox']")).SendKeys("An Automated Message");  // Subject
             System.Threading.Thread.Sleep(1000);
 
-            //_browserDriver.FindElement(By.XPath("//div[@class ='Am Al editable LW-avf tS-tW']")).SendKeys("Finally!!!\n I have done it!\n Regards,\n Hamza");  // Body
-            //System.Threading.Thread.Sleep(1000);
-
             _browserDriver.FindElement(By.XPath("//*[@aria-label='More options']")).Click();  // Clicking three dots - More Options
             System.Threading.Thread.Sleep(1000);
 
@@ -83,27 +80,21 @@ namespace CrossMail.Test
             _browserDriver.FindElement(By.XPath("//div[@class ='Am Al editable LW-avf tS-tW']")).SendKeys("Finally!!!\n I have done it!\n Regards,\n Hamza" + Keys.Control + Keys.Enter);  // Body
             System.Threading.Thread.Sleep(1000);
 
+            //-------------------------------------------------------Email Sent in with Social Label---------------------------------------------------------
 
-            //_browserDriver.FindElement(By.XPath("//*[@aria-label='Send ‪(Ctrl-Enter)‬']")).Click();
-            System.Threading.Thread.Sleep(2000);
-            //_browserDriver.FindElement(By.XPath("//div[@data-tooltip = 'Send ‪(Ctrl-Enter)‬']")).Click();
-            // _browserDriver.FindElement(By.ClassName("T-I J-J5-Ji aoO v7 T-I-atl L3")).Click();
-            //_browserDriver.FindElement(By.XPath("//div[text() = 'Send']")).Click();
-            //_browserDriver.FindElement(By.Id(":1fj")).Click();
-            System.Threading.Thread.Sleep(2000);
-            //_browserDriver.FindElement(By.CssSelector(".T-I J-J5-Ji aoO v7 T-I-atl L3")).Click();
-            System.Threading.Thread.Sleep(2000);
-            //_browserDriver.FindElement(By.XPath("//div[@tabindex= '1']")).Click();
+
+            _browserDriver.FindElement(By.XPath("//*[text() = 'Social']")).Click();
+            System.Threading.Thread.Sleep(1000);
+
+
 
            //Actions action = new Actions(_browserDriver);
            // action.KeyDown(Keys.Control).KeyDown(Keys.Return).KeyUp(Keys.Control).KeyUp(Keys.Return).Perform();
-
             //Robot robot = new Robot();
             //robot.keyPress(KeyEvent.VK_CONTROL);
             //robot.keyPress(KeyEvent.VK_ENTER);
             //_browserDriver.FindElement(By.Id("identifierNext")).Click();
             //_browserDriver.FindElement(By.XPath("//div[contains(text(),'Send')]")).Click();
-            System.Threading.Thread.Sleep(2000);
 
 
 
