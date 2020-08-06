@@ -86,14 +86,14 @@ namespace CrossMail.Test
             System.Threading.Thread.Sleep(1000);
             _browserDriver.FindElement(By.XPath("//*[text() ='Label']")).Click(); // clicking the Label option
             System.Threading.Thread.Sleep(1000);
-            _browserDriver.FindElement(By.XPath("//div[text() = 'Social']")).Click(); // trying to click 'Social' label 4
+            //_browserDriver.FindElement(By.XPath("//div[text() = 'Social']")).Click(); // trying to click 'Social' label 4
                                                                                       //_browserDriver.FindElement(By.XPath("//div[@title = 'Social']")).Click(); // trying to click 'Social' label 5
-            _browserDriver.FindElement(By.XPath("//*[@aria-label='More options']")).Click();  // Clicking three dots - More Options
-            System.Threading.Thread.Sleep(1000);
+            //_browserDriver.FindElement(By.XPath("//*[@aria-label='More options']")).Click();  // Clicking three dots - More Options
+            //System.Threading.Thread.Sleep(1000);
 
-            _browserDriver.FindElement(By.XPath("//*[text() ='Label']")).Click(); // clicking the Label option
-            System.Threading.Thread.Sleep(1000);
-            _browserDriver.FindElement(By.XPath("//*[text() ='Social']")).Click();  // This opens social tab 6
+            //_browserDriver.FindElement(By.XPath("//*[text() ='Label']")).Click(); // clicking the Label option
+            //System.Threading.Thread.Sleep(1000);
+            //_browserDriver.FindElement(By.XPath("//*[text() ='Social']")).Click();  // This opens social tab 6
 
             /*
             try
