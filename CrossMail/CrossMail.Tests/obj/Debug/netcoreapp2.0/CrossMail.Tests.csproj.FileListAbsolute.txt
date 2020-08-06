@@ -61,5 +61,5 @@ D:\Projects\Automation Projects\Gmail Testing\CrossMail\CrossMail.Tests\bin\Debu
 D:\Projects\Automation Projects\Gmail Testing\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\nunit.engine.dll
 D:\Projects\Automation Projects\Gmail Testing\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\nunit.engine.api.dll
 D:\Projects\Automation Projects\Gmail Testing\CrossMail\CrossMail.Tests\bin\Debug\netcoreapp2.0\nunit.engine.core.dll
-D:\Projects\Automation Projects\Gmail Testing\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.csproj.CoreCompileInputs.cache
 D:\Projects\Automation Projects\Gmail Testing\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.csprojAssemblyReference.cache
+D:\Projects\Automation Projects\Gmail Testing\CrossMail\CrossMail.Tests\obj\Debug\netcoreapp2.0\CrossMail.Tests.csproj.CoreCompileInputs.cache

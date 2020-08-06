@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SXuQk/pw9lKkV3yBBuu2nQuyViHLNHg1gJhzDU0YwBlkxNOsspJ5vqsWGtwyDzn/VJXORYY7zq8AKVPYGGUIGg==",
+  "dgSpecHash": "IJyUyPdgty6eS/ACIv7lHa15eWNUBTqR6qOSqdSX5oCzP2y9p4FHfV0uYdBo3DSxvUEXnemY32aAVa2UYXeOSg==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Automation Projects\\Gmail Testing\\CrossMail\\CrossMail.Tests\\CrossMail.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamza\\.nuget\\packages\\comparenetobjects\\4.57.0\\comparenetobjects.4.57.0.nupkg.sha512",
+    "C:\\Users\\hamza\\.nuget\\packages\\ikvm\\8.1.5717\\ikvm.8.1.5717.nupkg.sha512",
     "C:\\Users\\hamza\\.nuget\\packages\\jsonsubtypes\\1.5.2\\jsonsubtypes.1.5.2.nupkg.sha512",
     "C:\\Users\\hamza\\.nuget\\packages\\mailslurp\\7.1.3\\mailslurp.7.1.3.nupkg.sha512",
     "C:\\Users\\hamza\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -104,6 +105,16 @@
     "C:\\Users\\hamza\\.nuget\\packages\\xunit.runner.visualstudio\\2.3.1\\xunit.runner.visualstudio.2.3.1.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'IKVM 8.1.5717' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "IKVM",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
