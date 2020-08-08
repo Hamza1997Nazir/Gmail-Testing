@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v2.0": {
       "CrossMail.Tests/1.0.0": {
         "dependencies": {
+          "DotNetSeleniumExtras.PageObjects": "3.11.0",
           "IKVM": "8.1.5717",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
           "NUnit": "3.12.0",
@@ -30,6 +31,17 @@
           "lib/netstandard2.0/KellermanSoftware.Compare-NET-Objects.dll": {
             "assemblyVersion": "4.57.0.0",
             "fileVersion": "4.57.0.0"
+          }
+        }
+      },
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "3.13.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {
+            "assemblyVersion": "3.11.0.0",
+            "fileVersion": "3.11.0.0"
           }
         }
       },
@@ -1232,6 +1244,13 @@
       "sha512": "sha512-0uCvlZwCtYAjEvMwRZAqFnXtkGiXZCCgW1Y/fzH6k/yIVlN4pqaRwSfxRSKezFlg6UG1XXoSZtvmAEt7X2AKhg==",
       "path": "comparenetobjects/4.57.0",
       "hashPath": "comparenetobjects.4.57.0.nupkg.sha512"
+    },
+    "DotNetSeleniumExtras.PageObjects/3.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DJCLQ3beq1fzqpeQ5jTZwDqmzbOD2Xxsb/jCyShYam88CNwGGn5aBBqu4LVSj0sy0Ai76OauQQncYlC48VvQUQ==",
+      "path": "dotnetseleniumextras.pageobjects/3.11.0",
+      "hashPath": "dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512"
     },
     "IKVM/8.1.5717": {
       "type": "package",

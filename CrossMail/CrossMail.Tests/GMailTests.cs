@@ -97,8 +97,11 @@ namespace CrossMail.Test
         public void VerifyEmail()
         {
 
-            _browserDriver.FindElement(By.XPath("//*[text() = 'Social']")).Click(); // Opening Social Tab
-            System.Threading.Thread.Sleep(1000);
+            _browserDriver.FindElement(By.XPath("//span[text() = 'tt']")).Click();
+            
+
+            //_browserDriver.FindElement(By.XPath("//*[text() = 'Social']")).Click(); // Opening Social Tab
+            //System.Threading.Thread.Sleep(1000);
 
 
         }

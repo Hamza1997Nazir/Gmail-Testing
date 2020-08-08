@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="3.12.0" />
     <PackageReference Include="IKVM" Version="8.1.5717" />
     <PackageReference Include="mailslurp" Version="7.1.3" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
