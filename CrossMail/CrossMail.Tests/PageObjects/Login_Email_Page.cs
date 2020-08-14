@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 //using OpenQA.Selenium.Support.PageObjects;
 using SeleniumExtras.PageObjects;
 using System;
@@ -11,10 +12,12 @@ namespace CrossMail.Tests.PageObjects
 {
     class Login_Email_Page
     {
-        IWebDriver _browserDriver;
+        private IWebDriver _browserDriver;
+        private WebDriverWait wait;
         public Login_Email_Page(IWebDriver _browserDriver)
         {
             this._browserDriver = _browserDriver;
+            wait = new WebDriverWait(_browserDriver, TimeSpan.FromSeconds(10));
             PageFactory.InitElements(_browserDriver, this);
         }
 
@@ -29,10 +32,10 @@ namespace CrossMail.Tests.PageObjects
             EmailTextBox.SendKeys(email);
         }
 
-        public void goToLoginPassword_Page()
+        public Login_Password_Page goToLoginPassword_Page()
         {
             Next_Button.Click();
-            return new Google_Page(_browserDriver);
+            return new Login_Password_Page(_browserDriver);
         }
        
     }

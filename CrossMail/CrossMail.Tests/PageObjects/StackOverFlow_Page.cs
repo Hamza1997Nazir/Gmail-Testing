@@ -28,7 +28,7 @@ namespace CrossMail.Tests.PageObjects
             _browserDriver.Navigate().GoToUrl("https://stackoverflow.com/");    //going to stack overflow
         }
 
-        public void goToLoginEmail_Page_FromStackOverFlow_Page()
+        public Login_Email_Page goToLoginEmail_Page_FromStackOverFlow_Page()
         {
             Login_Button.Click();
             return new Login_Email_Page(_browserDriver);
