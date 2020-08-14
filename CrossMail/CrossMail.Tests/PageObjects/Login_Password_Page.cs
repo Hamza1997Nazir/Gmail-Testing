@@ -21,7 +21,7 @@ namespace CrossMail.Tests.PageObjects
             PageFactory.InitElements(_browserDriver, this);
         }
 
-        [FindsBy(How = How.Id, Using = "//input[@name='password']")]
+        [FindsBy(How = How.XPath, Using = "//input[@name='password']")]
         private IWebElement PasswordTextField;
 
         [FindsBy(How=How.Id,Using = "passwordNext")]
@@ -29,7 +29,7 @@ namespace CrossMail.Tests.PageObjects
 
         public void EnterPassword(string password)
         {
-            System.Threading.Thread.Sleep(3000);
+            System.Threading.Thread.Sleep(10000);
             PasswordTextField.SendKeys(password);
         }
         public Google_Page goToGoogle_Page()
