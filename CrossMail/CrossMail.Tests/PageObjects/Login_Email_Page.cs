@@ -29,11 +29,14 @@ namespace CrossMail.Tests.PageObjects
 
         public void enterEmailAddress(string email)
         {
+
+            System.Threading.Thread.Sleep(1000);
             EmailTextBox.SendKeys(email);
         }
 
         public Login_Password_Page goToLoginPassword_Page()
         {
+            System.Threading.Thread.Sleep(1000);
             Next_Button.Click();
             return new Login_Password_Page(_browserDriver);
         }

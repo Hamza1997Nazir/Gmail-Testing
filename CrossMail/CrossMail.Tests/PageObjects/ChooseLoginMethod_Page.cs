@@ -23,6 +23,7 @@ namespace CrossMail.Tests.PageObjects
 
         public Login_Email_Page goToLoginEmail_Page()
         {
+            System.Threading.Thread.Sleep(1000);
             googleLogin_Button.Click();
             return new Login_Email_Page(_browserDriver);
         }

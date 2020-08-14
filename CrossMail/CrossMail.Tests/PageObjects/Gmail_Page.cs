@@ -45,14 +45,26 @@ namespace CrossMail.Tests.PageObjects
 
         public void WritingAndSendingEmail(string to, string subject, string body)
         {
+            System.Threading.Thread.Sleep(1000);
             Compose_Button.Click();
+
+            System.Threading.Thread.Sleep(1000);
             ToEmailAddress.SendKeys(to);
+
+            System.Threading.Thread.Sleep(1000);
             EmailSubject.SendKeys(subject);
 
+
+            System.Threading.Thread.Sleep(1000);
             ThreeDots.Click();
+
+            System.Threading.Thread.Sleep(1000);
             LabelOption.Click();
+
+            System.Threading.Thread.Sleep(1000);
             SocialCheckBox.Click();
 
+            System.Threading.Thread.Sleep(1000);
             EmailBody.SendKeys(body + Keys.Control + Keys.Enter);
         }
 

@@ -10,6 +10,7 @@ using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Support;
 using System;
 using Xunit;
+using CrossMail.Tests.PageObjects;
 
 namespace CrossMail.Test
 {
@@ -17,6 +18,12 @@ namespace CrossMail.Test
     {
         IWebDriver _browserDriver;
         IConfiguration _config;
+
+        string email = "tt5515154@gmail.com";
+        string to = "tt5515154@gmail.com";
+        string password = "testtester4040";
+        string subject = "Test mail POM";
+        string body = "Finally!!!\n I have done it!\n Regards,\n Hamza";
 
         public GMailTests()
         {
@@ -27,7 +34,7 @@ namespace CrossMail.Test
 
             //-------------------------------------Steps for logging into Google----------------------------------------------------
 
-
+            /*
             _browserDriver.Manage().Window.Maximize();
             _browserDriver.Navigate().GoToUrl("https://stackoverflow.com/");    //going to stack overflow
 
@@ -54,7 +61,7 @@ namespace CrossMail.Test
 
             _browserDriver.FindElement(By.XPath("//*[text() ='Gmail']")).Click();  // pressing Gmail button 
             System.Threading.Thread.Sleep(1000);
-
+            */
         }
 
         public void Dispose()
@@ -65,9 +72,22 @@ namespace CrossMail.Test
         [Fact]
         public void Should_Send_Email()
         {
+
+            StackOverFlow_Page stackOverFlow_Page = new StackOverFlow_Page(_browserDriver); // Object of stack overflow page
+            stackOverFlow_Page.goToStackOverFlow_Page(); // using its function to open this page
+            ChooseLoginMethod_Page chooseLoginMethod_Page = stackOverFlow_Page.goToLoginEmail_Page_FromStackOverFlow_Page();  // Clicking the log in button
+            Login_Email_Page login_Email_Page =  chooseLoginMethod_Page.goToLoginEmail_Page(); // clicking the log in by google button leading to email page
+            login_Email_Page.enterEmailAddress(email); // sending the email address 
+            Login_Password_Page login_Password_Page =  login_Email_Page.goToLoginPassword_Page(); // moving to next page
+            login_Password_Page.EnterPassword(password); // password entered
+            Google_Page google_Page = login_Password_Page.goToGoogle_Page(); // moving onto Google page
+            Gmail_Page gmail_Page =  google_Page.goToGmail_Page();
+            gmail_Page.WritingAndSendingEmail(to, subject, body);
+
+
             //-----------------------------------------Now we have logged into Google------------------------------------------------------------------
 
-
+            /*
             _browserDriver.FindElement(By.XPath("//div[@class ='T-I T-I-KE L3']")).Click();  // pressing Compose button 
             System.Threading.Thread.Sleep(1000);
 
@@ -90,7 +110,7 @@ namespace CrossMail.Test
             System.Threading.Thread.Sleep(1000);
 
             //-------------------------------------------------------Email Sent in with Social Label---------------------------------------------------------
-
+            */
         }
 
         [Fact]

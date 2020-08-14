@@ -29,12 +29,16 @@ namespace CrossMail.Tests.PageObjects
 
         public void EnterPassword(string password)
         {
+            System.Threading.Thread.Sleep(3000);
             PasswordTextField.SendKeys(password);
         }
         public Google_Page goToGoogle_Page()
         {
+            System.Threading.Thread.Sleep(1000);
             Next_Button.Click();
+            System.Threading.Thread.Sleep(1000);
             wait = new WebDriverWait(_browserDriver, TimeSpan.FromSeconds(10));
+            System.Threading.Thread.Sleep(1000);
             _browserDriver.Navigate().GoToUrl("https://www.google.com/");
             return new Google_Page(_browserDriver);
         }
